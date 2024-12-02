@@ -63,7 +63,7 @@ const createPoints = (pointsArr) => {
     // scene.add(randomPoint)
 
 
-    const coords = generatingCoords(pointsArr, startingPoint, options.totalPoints)
+    const coords = generatingCoords(pointsArr, startingPoint)
 
     pointsGeometry = new THREE.BufferGeometry()
 
